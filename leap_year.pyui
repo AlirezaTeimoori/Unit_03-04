@@ -1,0 +1,89 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {480, 320}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{32, 26}, {419, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "instruction_label",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "C25196DA-EDFC-4807-A52D-59FD62D1E965",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Enter a year to check if it is a leap year or not",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{140, 128}, {200, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "placeholder" : "between 1 to 2017",
+          "name" : "year_textfield",
+          "frame" : "{{140, 144}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "97D717D5-3B27-4D51-A943-005C9C9154F5",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{200, 193}, {80, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "check_button_touch_up_inside",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "Check!",
+          "uuid" : "6DA656CB-2ADF-4E5C-9BBF-B82623F6CED3",
+          "class" : "Button",
+          "name" : "check_button",
+          "font_size" : 16
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{0, 263}, {480, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "name" : "answer_label",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "AB66A3D6-7DBF-4534-9F52-63F0DFD3BB9C",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
